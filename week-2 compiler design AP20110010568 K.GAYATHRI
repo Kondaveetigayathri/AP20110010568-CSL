@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z_wVMl5NGVyM",
+        "outputId": "da6efd6c-f02d-4267-d142-89bb4b16c240"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "if you want to end enter 01\n",
+            "enter the datatype:int\n",
+            "enter the name of identefier:a\n",
+            "if you want to end enter 01\n",
+            "enter the datatype:arrays\n",
+            "enter the size of the array:5\n",
+            "enter the type of the array:1\n",
+            "if you want to end enter 02\n",
+            "enter the datatype:3\n",
+            "if you want to end enter 04\n",
+            "enter the datatype:5\n",
+            "if you want to end enter 05\n",
+            "enter the datatype:0\n",
+            "if you want to end enter 00\n",
+            "{'int': 'a', 'arrays': ['5', '1']}\n"
+          ]
+        }
+      ],
+      "source": [
+        "dict={}\n",
+        "while(1):\n",
+        "    t=int(input(\"if you want to end enter 0\"))\n",
+        "    if(t==0):\n",
+        "        break\n",
+        "    datatype=input(\"enter the datatype:\")\n",
+        "    if(datatype==\"int\"):\n",
+        "       value=input(\"enter the name of identefier:\")\n",
+        "       dict[datatype]=value\n",
+        "    elif(datatype==\"char\"):\n",
+        "       value=input(\"enter the name of identefier:\")\n",
+        "       dict[datatype]=value  \n",
+        "    elif(datatype==\"float\"):\n",
+        "       value=input(\"enter the name of identefier:\")\n",
+        "       dict[datatype]=value  \n",
+        "    elif(datatype==\"arrays\"):\n",
+        "       l=[]\n",
+        "       value1=input(\"enter the size of the array:\")\n",
+        "       value2=input(\"enter the type of the array:\")\n",
+        "       l.append(value1)\n",
+        "       l.append(value2)\n",
+        "       dict[datatype]=l  \n",
+        "    elif(datatype==\"structure\"):\n",
+        "       l=[]\n",
+        "       value1=int(input(\"enter the total number of datatypes:\"))\n",
+        "       for i in range(value1):\n",
+        "           d={}\n",
+        "           t=input(\"enter the datatype:\")\n",
+        "           m=input(\"enter the name of identifier:\")\n",
+        "           d[t]=m\n",
+        "           l.append(d)\n",
+        "       dict[datatype]=l  \n",
+        "           \n",
+        " \n",
+        "print(dict)    "
+      ]
+    }
+  ]
+}
