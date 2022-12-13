@@ -1,0 +1,73 @@
+html is a key word
+html is a key word
+HTML is a key word
+< is a open bracket to
+!DOCTYPE is a key word
+ html is a key word
+> is a closing bracket
+< is a open bracket to
+html is a key word
+> is a closing bracket
+< is a open bracket to
+body is a key word
+> is a closing bracket
+< is a open bracket to
+h1 is a key word -Headings
+> is a closing bracket
+My is an identifier
+ First is an identifier
+ Heading is an identifier
+< is a open bracket to
+/h1 is a key word -Headings
+> is a closing bracket
+< is a open bracket to
+p is a key word
+> is a closing bracket
+My is an identifier
+ first is an identifier
+ paragraph is an identifier
+. is floating point number
+< is a open bracket to
+/p is a key word
+> is a closing bracket
+< is a open bracket to
+/body is a key word
+> is a closing bracket
+< is a open bracket to
+/html is a key word
+> is a closing bracket
+< is a open bracket to
+!DOCTYPE is a key word
+ html is a key word
+> is a closing bracket
+< is a open bracket to
+html is a key word
+> is a closing bracket
+< is a open bracket to
+body is a key word
+> is a closing bracket
+< is a open bracket to
+h1 is a key word -Headings
+> is a closing bracket
+My is an identifier
+ First is an identifier
+ Heading is an identifier
+< is a open bracket to
+/h1 is a key word -Headings
+> is a closing bracket
+< is a open bracket to
+p is a key word
+> is a closing bracket
+My is an identifier
+ first is an identifier
+ paragraph is an identifier
+. is floating point number
+< is a open bracket to
+/p is a key word
+> is a closing bracket
+< is a open bracket to
+/body is a key word
+> is a closing bracket
+< is a open bracket to
+/html is a key word
+> is a closing bracket
